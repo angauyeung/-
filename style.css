@@ -951,12 +951,12 @@ body {
     display: block;
     margin-bottom: 30px;
   }
-  .service h2.our-service {
+  .service-box h2.our-service {
     width: 100%;
     font-size: 20px;
     margin-bottom: 24px;
   }
-  .service p.our-service-p {
+  .service-box p.our-service-p {
     width: 100%;
     font-size: 20px;
     line-height: 1.2;
