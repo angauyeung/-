@@ -283,7 +283,7 @@ body {
   position: relative;
 }
 
-.sponsor:before {
+.sponsor::before {
   content: "";
   position: absolute;
   left: -5px;
@@ -294,7 +294,7 @@ body {
   background: linear-gradient(to right, black, rgba(255, 255, 255, 0));
 }
 
-.sponsor:after {
+.sponsor::after {
   content: "";
   position: absolute;
   right: -5px;
