@@ -926,9 +926,14 @@ body {
 
 /* Phone */
 @media screen and (max-width: 414px) {
+  .wraper{
+    position: relative;
+    top: 5%;
+    left: 5%;
+  }
   .header {
-    padding: 0 10px;
     padding-bottom: 60px;
+
   }
   .navbar {
     flex-wrap: wrap;
@@ -941,16 +946,14 @@ body {
   }
   .ai-tool h1 {
     font-size: 40px;
-    width: 80%;
+    width: 100%;
     line-height: 1.3;
   }
-
-
   .arrow {
     justify-content: center;
   }
   .arrow img {
-    width: 100%;
+    width: 30%;
   }
   .service-box {
     display: block;
@@ -958,7 +961,7 @@ body {
   }
   .service-box h2.our-service {
     width: 100%;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 24px;
   }
   .service-box p.our-service-p {
