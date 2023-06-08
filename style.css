@@ -1023,10 +1023,12 @@ body {
   }
 
   .content h2 {
-    font-size: 32px;
+    font-size: 40px;
     margin: 0 0 32px 0;
-    text-align: center;
-    line-height: 1.2;
+  }
+
+  .content .filter-box {
+    margin: 0 auto;
   }
   .content .card-content {
     padding: 0;
@@ -1034,8 +1036,9 @@ body {
   .content .card-content .card {
     width: 100%;
   }
-  
-
+  .content .search-box {
+    margin-bottom: 0;
+  }
   .start-service {
     margin: 120px 10px;
   }
