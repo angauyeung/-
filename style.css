@@ -1009,9 +1009,8 @@ body {
     width: 100%;
     margin: 5px 0;
   }
-  .review-wrap {
-    margin: 0;
-    flex-wrap: wrap;
+  .review-wrap{
+    margin: 0 auto;
   }
   .review-wrap .review-card {
     width: 100%;
