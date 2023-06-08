@@ -254,6 +254,7 @@ body {
 
 .pros-box .pros {
   width: 32.5%;
+  height: 40%;
   border: 1px solid #666666;
   border-radius: 20px;
   padding: 5% 2%;
@@ -817,16 +818,21 @@ body {
   }
 /* Pros */
   .pros-box {
-    margin: 60px 0;
     flex-direction: column;
     align-items: center;
   }
   .pros{
-
+    margin: 5px 0;
+    padding: 0;
   }
+  .pros-box .pros {
+    width: 100%;
+  }
+  .pros-box .pros img{
+    width: 8%;
+  }
+
   .pros-box .item {
-    box-sizing: border-box;
-    width: 50%;
     border: 1px solid #666666;
     border-radius: 20px;
     color: white;
@@ -967,7 +973,6 @@ body {
     flex-direction: column;
   }
   .pros-box .pros {
-    box-sizing: border-box;
     width: 100% ;
   }
 
@@ -977,10 +982,14 @@ body {
     margin: 5px 0;
   }
   .pros-box .item img {
-    width: 75px;
+    width: 5%;
   }
   .pros-box .item h3 {
     margin: 20px 0;
+  }
+  .pros{
+    width: 100%;
+    margin: 5px 0;
   }
   .review-wrap {
     margin: 0;
