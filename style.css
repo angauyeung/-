@@ -228,7 +228,7 @@ body {
   justify-content: space-between;
   color: white;
   font-weight: 900;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .service-box h2.our-service {
@@ -238,7 +238,7 @@ body {
 }
 
 .service-box p.our-service-p {
-  width: 46%;
+  width: 60%;
   font-size: 40px;
   line-height: 1.5;
 }
