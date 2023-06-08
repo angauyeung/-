@@ -468,7 +468,7 @@ body {
   color: black;
 }
 
-.content .filter-box a .filter span {
+.content .filter-box a {
   display: inline-block;
   margin-right: 5px;
   color: black;
@@ -502,6 +502,7 @@ body {
   color: black;
   border: none;
   list-style: 1.5;
+  font-size: 15px;
 }
 
 .content .filter-box .sort i {
