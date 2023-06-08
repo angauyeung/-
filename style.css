@@ -860,10 +860,11 @@ body {
     margin-bottom: 10px;
   }
   .whitearea {
-    padding: 80px 30px;
+    padding: 50px 30px;
     border-radius: 80px;
     margin-bottom: 60px;
   }
+
   .content h2 {
     font-size: 60px;
     line-height: 1.2;
@@ -953,12 +954,12 @@ body {
   }
   .service-box h2.our-service {
     width: 100%;
-    font-size: 20px;
+    font-size: 35px;
     margin-bottom: 24px;
   }
   .service-box p.our-service-p {
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.2;
   }
   .pros-box {
@@ -981,6 +982,7 @@ body {
   }
   .pros-box .item h3 {
     margin: 20px 0;
+    font-size: 25px;
   }
   .pros{
     width: 100%;
@@ -997,7 +999,7 @@ body {
 
 
   .whitearea {
-    padding: 160px 10px;
+    padding: 50px 30px;
     border-radius: 10px;
     margin-bottom: 60px;
   }
@@ -1009,7 +1011,7 @@ body {
     line-height: 1.2;
   }
   .content .card-content {
-    ppadding: 0;
+    padding: 0;
   }
   .content .card-content .card {
     width: 100%;
