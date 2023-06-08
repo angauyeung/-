@@ -810,7 +810,7 @@ body {
   .ai-tool h1 {
     font-size: 60px;
   }
-    .arrow img {
+  .arrow img {
     width: 20%;
   }
   .service-box {
@@ -933,7 +933,6 @@ body {
   }
   .header {
     padding-bottom: 60px;
-
   }
   .navbar {
     flex-wrap: wrap;
@@ -969,8 +968,24 @@ body {
     font-size: 30px;
     line-height: 1.2;
   }
-  .pros-box {
+  .sponsor {
     margin: 60px 0;
+  }
+  .sponsor .sponsor-logo {
+    display: block;
+    width: 100%;
+  }
+  .sponsor .sponsor-logo img {
+    margin: 1px;
+    display: block;
+  }
+  .sponsor .sponsor-logo .logo-1 {
+    padding-left: 100px;
+}
+  .sponsor .sponsor-logo .logo-1 img, .sponsor .sponsor-logo .logo-2 img {
+    width: 50%;
+  }
+  .pros-box {
     padding: 0;
     align-items: center;
     flex-direction: column;
@@ -978,7 +993,6 @@ body {
   .pros-box .pros {
     width: 100% ;
   }
-
   .pros-box .item {
     width: 100%;
     padding: 40px 20px;
@@ -1003,8 +1017,6 @@ body {
     width: 100%;
     margin-bottom: 10px;
   }
-
-
   .whitearea {
     padding: 50px 20px;
     border-radius: 10px;
