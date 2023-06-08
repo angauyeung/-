@@ -123,7 +123,12 @@ body {
   color: white;
 }
 
-
+.navbar .menu-phone {
+  display: none;
+}
+.dropdown-menu {
+  display: none;
+}
 .navbar.active {
   display: block;
   background-color: white;
@@ -941,8 +946,18 @@ body {
   .navbar li.menu {
     display: none;
   }
-  .navbar .menu-switch {
+  .navbar .menu-phone {
     display: block;
+  }
+  .dropdown-menu {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .navbar .dropdown-menu li {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 10px 0;
   }
   .ai-tool h1 {
     font-size: 40px;
