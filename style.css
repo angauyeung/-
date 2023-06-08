@@ -947,10 +947,10 @@ body {
 
 
   .arrow {
-    justify-content: flex-end;
+    justify-content: center;
   }
   .arrow img {
-    width: 30%;
+    width: 100%;
   }
   .service-box {
     display: block;
@@ -958,7 +958,7 @@ body {
   }
   .service-box h2.our-service {
     width: 100%;
-    font-size: 35px;
+    font-size: 20px;
     margin-bottom: 24px;
   }
   .service-box p.our-service-p {
@@ -982,7 +982,7 @@ body {
     margin: 5px 0;
   }
   .pros-box .item img {
-    width: 5%;
+    width: 10%;
   }
   .pros-box .item h3 {
     margin: 20px 0;
@@ -1035,7 +1035,7 @@ body {
   .submenu .menu a {
     font-size: 30px;
     line-height: 1.2;
-    margin-bottom: 8px;
+    margin-bottom: 30px;
   }
   .submenu .sublogo {
     order: 1;
