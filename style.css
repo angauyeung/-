@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* Google Fonts 思源體*/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/
     v2.0 | 20110126
@@ -91,6 +90,7 @@ body {
   align-items: center;
   border-bottom: 1px solid white;
   position: relative;
+  font-size: 40p;
 }
 
 .navbar li a {
@@ -116,30 +116,13 @@ body {
   line-height: 24px;
   color: white;
   text-align: right;
+  font-size: 25px;
 }
 
 .navbar li.menu:hover {
   color: white;
 }
 
-.navbar .dropdown-menu {
-  display: none;
-  width: 100%;
-  margin: 5px 0;
-}
-
-.navbar .dropdown-menu li {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin: 10px 0;
-}
-
-.navbar .dropdown-menu li a {
-  font-size: 20px;
-  line-height: 1.2;
-  color: white;
-}
 
 .navbar.active {
   display: block;
@@ -249,13 +232,13 @@ body {
 }
 
 .service-box h2.our-service {
-  width: 30%;
+  width: 40%;
   font-size: 32px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 .service-box p.our-service-p {
-  width: 70%;
+  width: 46%;
   font-size: 40px;
   line-height: 1.5;
 }
@@ -308,8 +291,6 @@ body {
   width: 25%;
   height: 120px;
   z-index: 1;
-  background: -webkit-linear-gradient(left, black, rgba(255, 255, 255, 0));
-  background: -o-linear-gradient(left, black, rgba(255, 255, 255, 0));
   background: linear-gradient(to right, black, rgba(255, 255, 255, 0));
 }
 
@@ -321,8 +302,6 @@ body {
   width: 25%;
   height: 120px;
   z-index: 1;
-  background: -webkit-linear-gradient(right, black, rgba(255, 255, 255, 0));
-  background: -o-linear-gradient(right, black, rgba(255, 255, 255, 0));
   background: linear-gradient(to left, black, rgba(255, 255, 255, 0));
 }
 
@@ -975,10 +954,17 @@ body {
     line-height: 1.2;
   }
   .pros-box {
+    flex-direction: column;
     flex-wrap: wrap;
     margin: 60px 0;
     padding: 0;
+    align-items: center;
   }
+  .pros-box .pros {
+    width: 100% ;
+    flex-direction: column;
+  }
+
   .pros-box .item {
     width: 100%;
     padding: 40px 20px;
