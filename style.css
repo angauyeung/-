@@ -401,7 +401,7 @@ body {
 /* whitearea */
 .whitearea {
   width: 100%;
-  padding: 160px 20px;
+  padding: 100px 20px;
   background-color: white;
   border-radius: 160px;
   margin-bottom: 158px;
@@ -860,7 +860,7 @@ body {
     margin-bottom: 10px;
   }
   .whitearea {
-    padding: 50px 30px;
+    padding: 60px 20px;
     border-radius: 80px;
     margin-bottom: 60px;
   }
@@ -999,7 +999,7 @@ body {
 
 
   .whitearea {
-    padding: 50px 30px;
+    padding: 50px 20px;
     border-radius: 10px;
     margin-bottom: 60px;
   }
